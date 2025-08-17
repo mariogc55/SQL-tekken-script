@@ -88,7 +88,6 @@ INSERT INTO fighter values("Bryan","Kickboxing","United States",186,87);
 SET foreign_key_checks = 1;
 select * from fighter;
 
-
 select * from mp_stats;
 SET foreign_key_checks = 0;
 -- Inserta los datos
@@ -101,7 +100,6 @@ INSERT INTO mp_stats values("EpicPlayer12","Agitador",175642,"Europa 1",36,6);
 -- Habilita la restricción de clave foránea
 SET foreign_key_checks = 1;
 select * from mp_stats;
-
 
 select * from selecting_stage;
 SET foreign_key_checks = 0;
